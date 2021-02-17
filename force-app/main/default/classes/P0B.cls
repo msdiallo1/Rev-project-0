@@ -232,7 +232,8 @@ public static Boolean bracketsAreBalanced( String s ) {
                 aAccount.Size__c='LARGE';
             }
         }
-       
+
+        update allAccounts;
     }
 
     /* 
@@ -254,6 +255,7 @@ public static Boolean bracketsAreBalanced( String s ) {
                 aLead.description='We are no longer doing business in California.';
             }
         }
+        update caLeads;
     }
 
     /*
